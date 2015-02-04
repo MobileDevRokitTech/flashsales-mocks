@@ -1,1 +1,1 @@
-# flashsales-mocks
+# Flash Sales Mocks
