@@ -6,7 +6,7 @@ It's a mock service for FlashSales API.
 # Group Sales
 Sales related resources of the **Sales API**
 
-## Notes Collection [/sales]
+## Sales Collection [/sales]
 ### List all Sales [GET]
 + Response 200 (application/json)
 
@@ -122,9 +122,6 @@ Sales related resources of the **Sales API**
           "life_time": 2387          
         }]
 
-# Store Details
-Store related resources of the **Sales API**
-
 ## Store by ID #1 [/store?id={id}]
 ### Store #1 [GET]
 + Response 200 (application/json)
@@ -160,10 +157,21 @@ Store related resources of the **Sales API**
                 ]
         }
         
-# Notes (Default tempalte)
-Some Notes
+# Group Notes
+Notes related resources of the **Notes API**
+
+## Notes Collection [/notes]
+### List all Notes [GET]
++ Response 200 (application/json)
+
+        [{
+          "id": 1, "title": "Jogging in park"
+        }, {
+          "id": 2, "title": "Pick-up posters from post-office"
+        }]
 
 ### Create a Note [POST]
+
 + Request (application/json)
 
         { "title": "Buy cheese and bread for breakfast." }
