@@ -122,6 +122,47 @@ Sales related resources of the **Sales API**
           "life_time": 2387          
         }]
 
+# Store Details
+Store related resources of the **Sales API**
+
+## Store by ID #1 [/store?id={id}]
+### Store #1 [GET]
++ Response 200 (application/json)
+
+        {
+            "name" : "My Best Store",
+            "id" : 1,
+            "category" : "retail",
+            "locations" :
+                [
+                    {
+                        "location" :
+                            {
+                                "lat": 37.39476,
+                                "lng": -121.89164,
+                                "address" : "New York, 9 Best Street"
+                            },
+                        "consumers_nearby" : 31,
+                        "active_sales" : [],
+                        "last_sales" : [],
+                    },
+                    {
+                        "location" :
+                            {
+                                "lat": 35.39476,
+                                "lng": -124.89164,
+                                "address" : "London, 221b Baker Street"
+                            },
+                        "consumers_nearby" : 27,
+                        "active_sales" : [],
+                        "last_sales" : [],
+                    },
+                ]
+        }
+        
+# Notes (Default tempalte)
+Some Notes
+
 ### Create a Note [POST]
 + Request (application/json)
 
@@ -130,6 +171,7 @@ Sales related resources of the **Sales API**
 + Response 201 (application/json)
 
         { "id": 3, "title": "Buy cheese and bread for breakfast." }
+
 
 ## Note [/notes/{id}]
 A single Note object with all its details
