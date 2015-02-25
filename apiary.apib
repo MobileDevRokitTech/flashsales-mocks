@@ -122,6 +122,30 @@ Sales related resources of the **Sales API**
           "life_time": 2387          
         }]
 
+## Sale [/sale/{id}]
+A single Sale object with all its details
+
++ Parameters
+    + id (required, number, `1`) ... Numeric `id` of the Sale to perform action with. Has example value.
+
+### Retrieve a Sale [GET]
++ Response 200 (application/json)
+
+    + Body
+
+            {
+                "id": 1, 
+                "title": "Strong N'Free Case for iPhone 6", 
+                "description": "Folio-style case protects screens from scratches", 
+                "location": 
+                {
+                    "lat": 37.32436,
+                    "lng": -121.99258,
+                    "distance": 900
+                },
+                "life_time": 3600          
+            }
+        
 ##  Current Provider [/active_provider]
 ### Current provider [GET]
 + Response 200 (application/json)
