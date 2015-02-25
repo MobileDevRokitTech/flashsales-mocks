@@ -10,120 +10,184 @@ Sales related resources of the **Sales API**
 ### List all Sales [GET]
 + Response 200 (application/json)
 
-        [{
-          "id": 1, 
-          "title": "Tangles Salon & Spa", 
-          "description": "20% Off Your Entire Purchase.", 
-          "location": 
-          {
-            "lat": 37.31917,
-            "lng": -122.04511,
-            "distance": 900
-          },
-          "life_time": 600
-        }, {
-          "id": 2, 
-          "title": "Strong N'Free Case for iPhone 6", 
-          "description": "Folio-style case protects screens from scratches", 
-          "location": 
-          {
-            "lat": 37.32436,
-            "lng": -121.99258,
-            "distance": 900
-          },
-          "life_time": 3600          
-        }, {
-          "id": 3, 
-          "title": "Zumba Step Classes", 
-          "description": "One or Two Months of Zumba Step Classes at GETFITNL (Half Off)", 
-          "location": 
-          {
-            "lat": 37.35193,
-            "lng": -121.96683,
-            "distance": 900
-          },
-          "life_time": 1200          
-        }, {
-          "id": 4, 
-          "title": "56% Off Custom Letter Art", 
-          "description": "C$59 for C$135 Worth of Custom Letter Art from Frame the Alphabet", 
-          "location": 
-          {
-            "lat": 37.36175,
-            "lng": -122.02142,
-            "distance": 720
-          },
-          "life_time": 2400          
-        }, {
-          "id": 5, 
-          "title": "FTD.ca - 50% Off Flowers and Gifts", 
-          "description": "US$15 for US$30 Worth of Flowers and Gifts from FTD.ca", 
-          "location": 
-          {
-            "lat": 37.29077,
-            "lng": -121.99087,
-            "distance": 539
-          },
-          "life_time": 100          
-        }, {
-          "id": 6, 
-          "title": "Name A Star Live - Up to 52% Off Gift Sets", 
-          "description": "Name A Star Live Gift Set with Optional Star Bear and Virtual Planetarium Software Package (Up to 52% Off)", 
-          "location": 
-          {
-            "lat": 37.29705,
-            "lng": -121.95001,
-            "distance": 82
-          },
-          "life_time": 1835          
-        }, {
-          "id": 7, 
-          "title": "Up to Half Off American Food at Jungle Jim's", 
-          "description": "Ribs, Burgers, Chicken, Seafood, and Sandwiches and Steak-House Cuisine at Jungle Jim's (Up to Half Off)", 
-          "location": 
-          {
-            "lat": 37.30442,
-            "lng": -121.91705,
-            "distance": 142
-          },
-          "life_time": 10          
-        }, {
-          "id": 8, 
-          "title": "50% Off Aikido Classes", 
-          "description": "$20 for One Month of Unlimited Aikido Classes at Fudoshin Aikikai ($40 Value)", 
-          "location": 
-          {
-            "lat": 37.33964,
-            "lng": -121.91636,
-            "distance": 946
-          },
-          "life_time": 334          
-        }, {
-          "id": 9, 
-          "title": "Up to 51% Off Swimming and Waterslide Package", 
-          "description": "Swimming Package for Two or Four with Admission to The Aquarena and Waterslides at The Works (Up to 51% Off)", 
-          "location": 
-          {
-            "lat": 37.35302,
-            "lng": -121.85422,
-            "distance": 1530
-          },
-          "life_time": 854          
-        }, {
-          "id": 10, 
-          "title": "44% Off Hockey - Recreational", 
-          "description": "$14 for $25 Groupon — Sani Sport NL", 
-          "location": 
-          {
-            "lat": 37.39476,
-            "lng": -121.89164,
-            "distance": 1200
-          },
-          "life_time": 2387          
-        }]
+        [
+            {
+                "id": 1,
+                "title": "Tangles Salon & Spa", 
+                "description": "20% Off Your Entire Purchase.",
+                "images":
+                {
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-23.jpg",
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-12.jpg",
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-10.jpg",
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-8.jpg",
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-15.jpg"
+                },
+                "location":
+                {
+                    "lat": 37.31917,
+                    "lng": -122.04511,
+                    "distance": 900
+                },
+                "life_time": 600
+            }, {
+                "id": 2,
+                "title": "Strong N'Free Case for iPhone 6",
+                "description": "Folio-style case protects screens from scratches",
+                "images":
+                {
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-12.jpg"
+                },
+                "location":
+                {
+                    "lat": 37.32436,
+                    "lng": -121.99258,
+                    "distance": 900
+                },
+                "life_time": 3600
+            }, {
+                "id": 3,
+                "title": "Zumba Step Classes", 
+                "description": "One or Two Months of Zumba Step Classes at GETFITNL (Half Off)", 
+                "images":
+                {
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-8.jpg",
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-10.jpg",
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-15.jpg"
+                },
+                "location":
+                {
+                    "lat": 37.35193,
+                    "lng": -121.96683,
+                    "distance": 900
+                },
+                "life_time": 1200          
+            }, {
+                "id": 4,
+                "title": "56% Off Custom Letter Art", 
+                "description": "C$59 for C$135 Worth of Custom Letter Art from Frame the Alphabet", 
+                "images":
+                {
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-15.jpg"
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-23.jpg",
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-12.jpg",
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-10.jpg",
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-8.jpg",
+                },
+                "location":
+                {
+                    "lat": 37.36175,
+                    "lng": -122.02142,
+                    "distance": 720
+                },
+                "life_time": 2400          
+            }, {
+                "id": 5, 
+                "title": "FTD.ca - 50% Off Flowers and Gifts", 
+                "description": "US$15 for US$30 Worth of Flowers and Gifts from FTD.ca", 
+                "images":
+                {
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-23.jpg",
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-8.jpg",
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-15.jpg"
+                },
+                "location":
+                {
+                    "lat": 37.29077,
+                    "lng": -121.99087,
+                    "distance": 539
+                },
+                "life_time": 100          
+            }, {
+                "id": 6, 
+                "title": "Name A Star Live - Up to 52% Off Gift Sets", 
+                "description": "Name A Star Live Gift Set with Optional Star Bear and Virtual Planetarium Software Package (Up to 52% Off)", 
+                "images":
+                {
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-12.jpg",
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-23.jpg",
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-10.jpg",
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-8.jpg",
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-15.jpg"
+                },
+                "location":
+                {
+                    "lat": 37.29705,
+                    "lng": -121.95001,
+                    "distance": 82
+                },
+                "life_time": 1835          
+            }, {
+                "id": 7, 
+                "title": "Up to Half Off American Food at Jungle Jim's", 
+                "description": "Ribs, Burgers, Chicken, Seafood, and Sandwiches and Steak-House Cuisine at Jungle Jim's (Up to Half Off)", 
+                "images":
+                {
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-10.jpg",
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-15.jpg"
+                },
+                "location":
+                {
+                    "lat": 37.30442,
+                    "lng": -121.91705,
+                    "distance": 142
+                },
+                "life_time": 10          
+            }, {
+                "id": 8, 
+                "title": "50% Off Aikido Classes", 
+                "description": "$20 for One Month of Unlimited Aikido Classes at Fudoshin Aikikai ($40 Value)", 
+                "images":
+                {
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-10.jpg"
+                },
+                "location":
+                {
+                    "lat": 37.33964,
+                    "lng": -121.91636,
+                    "distance": 946
+                },
+                "life_time": 334          
+            }, {
+                "id": 9, 
+                "title": "Up to 51% Off Swimming and Waterslide Package", 
+                "description": "Swimming Package for Two or Four with Admission to The Aquarena and Waterslides at The Works (Up to 51% Off)", 
+                "images":
+                {
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-8.jpg",
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-23.jpg",
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-15.jpg"
+                },
+                "location":
+                {
+                    "lat": 37.35302,
+                    "lng": -121.85422,
+                    "distance": 1530
+                },
+                "life_time": 854          
+            }, {
+                "id": 10, 
+                "title": "44% Off Hockey - Recreational", 
+                "description": "$14 for $25 Groupon â€” Sani Sport NL", 
+                "images":
+                {
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-15.jpg",
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-12.jpg",
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-10.jpg",
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-8.jpg"
+                },
+                "location":
+                {
+                    "lat": 37.39476,
+                    "lng": -121.89164,
+                    "distance": 1200
+                },
+                "life_time": 2387          
+            }
+         ]
 
-## Sale [/sale/{id}]
-A single Sale object with all its details
+## Sale [/sale/?id=1]
+A single Sale object with id=1 and all its details
 
 + Parameters
     + id (required, number, `1`) ... Numeric `id` of the Sale to perform action with. Has example value.
@@ -135,17 +199,295 @@ A single Sale object with all its details
 
             {
                 "id": 1, 
-                "title": "Strong N'Free Case for iPhone 6", 
-                "description": "Folio-style case protects screens from scratches", 
+                "title": "Tangles Salon & Spa", 
+                "description": "20% Off Your Entire Purchase.", 
+                "images":
+                {
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-23.jpg",
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-12.jpg",
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-10.jpg",
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-8.jpg",
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-15.jpg"
+                },
                 "location": 
+                {
+                    "lat": 37.31917,
+                    "lng": -122.04511,
+                    "distance": 900
+                },
+                "life_time": 600
+            }
+        
+## Sale [/sale/?id=2]
+A single Sale object with id=2 and all its details
+
++ Parameters
+    + id (required, number, `2`) ... Numeric `id` of the Sale to perform action with. Has example value.
+
+### Retrieve a Sale [GET]
++ Response 200 (application/json)
+
+    + Body
+
+            {
+                "id": 2,
+                "title": "Strong N'Free Case for iPhone 6",
+                "description": "Folio-style case protects screens from scratches",
+                "images":
+                {
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-12.jpg"
+                },
+                "location":
                 {
                     "lat": 37.32436,
                     "lng": -121.99258,
                     "distance": 900
                 },
-                "life_time": 3600          
+                "life_time": 3600
+            }
+          
+## Sale [/sale/?id=3]
+A single Sale object with id=3 and all its details
+
++ Parameters
+    + id (required, number, `3`) ... Numeric `id` of the Sale to perform action with. Has example value.
+
+### Retrieve a Sale [GET]
++ Response 200 (application/json)
+
+    + Body
+
+            {
+                "id": 3,
+                "title": "Zumba Step Classes", 
+                "description": "One or Two Months of Zumba Step Classes at GETFITNL (Half Off)", 
+                "images":
+                {
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-8.jpg",
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-10.jpg",
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-15.jpg"
+                },
+                "location": 
+                {
+                    "lat": 37.35193,
+                    "lng": -121.96683,
+                    "distance": 900
+                },
+                "life_time": 1200          
             }
         
+## Sale [/sale/?id=4]
+A single Sale object with id=4 and all its details
+
++ Parameters
+    + id (required, number, `4`) ... Numeric `id` of the Sale to perform action with. Has example value.
+
+### Retrieve a Sale [GET]
++ Response 200 (application/json)
+
+    + Body
+
+            {
+                "id": 4,
+                "title": "56% Off Custom Letter Art", 
+                "description": "C$59 for C$135 Worth of Custom Letter Art from Frame the Alphabet", 
+                "images":
+                {
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-15.jpg"
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-23.jpg",
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-12.jpg",
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-10.jpg",
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-8.jpg",
+                },
+                "location": 
+                {
+                    "lat": 37.36175,
+                    "lng": -122.02142,
+                    "distance": 720
+                },
+                "life_time": 2400          
+            }    
+            
+## Sale [/sale/?id=5]
+A single Sale object with id=5 and all its details
+
++ Parameters
+    + id (required, number, `5`) ... Numeric `id` of the Sale to perform action with. Has example value.
+
+### Retrieve a Sale [GET]
++ Response 200 (application/json)
+
+    + Body
+
+            {
+                "id": 5, 
+                "title": "FTD.ca - 50% Off Flowers and Gifts", 
+                "description": "US$15 for US$30 Worth of Flowers and Gifts from FTD.ca", 
+                "images":
+                {
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-23.jpg",
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-8.jpg",
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-15.jpg"
+                },
+                "location": 
+                {
+                    "lat": 37.29077,
+                    "lng": -121.99087,
+                    "distance": 539
+                },
+                "life_time": 100          
+            }    
+
+## Sale [/sale/?id=6]
+A single Sale object with id=6 and all its details
+
++ Parameters
+    + id (required, number, `6`) ... Numeric `id` of the Sale to perform action with. Has example value.
+
+### Retrieve a Sale [GET]
++ Response 200 (application/json)
+
+    + Body
+
+            {
+                "id": 6, 
+                "title": "Name A Star Live - Up to 52% Off Gift Sets", 
+                "description": "Name A Star Live Gift Set with Optional Star Bear and Virtual Planetarium Software Package (Up to 52% Off)", 
+                "images":
+                {
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-12.jpg",
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-23.jpg",
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-10.jpg",
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-8.jpg",
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-15.jpg"
+                },
+                "location": 
+                {
+                    "lat": 37.29705,
+                    "lng": -121.95001,
+                    "distance": 82
+                },
+                "life_time": 1835          
+            }    
+            
+## Sale [/sale/?id=7]
+A single Sale object with id=7 and all its details
+
++ Parameters
+    + id (required, number, `7`) ... Numeric `id` of the Sale to perform action with. Has example value.
+
+### Retrieve a Sale [GET]
++ Response 200 (application/json)
+
+    + Body
+
+            {
+                "id": 7, 
+                "title": "Up to Half Off American Food at Jungle Jim's", 
+                "description": "Ribs, Burgers, Chicken, Seafood, and Sandwiches and Steak-House Cuisine at Jungle Jim's (Up to Half Off)", 
+                "images":
+                {
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-10.jpg",
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-15.jpg"
+                },
+                "location": 
+                {
+                    "lat": 37.30442,
+                    "lng": -121.91705,
+                    "distance": 142
+                },
+                "life_time": 10          
+            }    
+            
+## Sale [/sale/?id=8]
+A single Sale object with id=8 and all its details
+
++ Parameters
+    + id (required, number, `8`) ... Numeric `id` of the Sale to perform action with. Has example value.
+
+### Retrieve a Sale [GET]
++ Response 200 (application/json)
+
+    + Body
+
+            {
+                "id": 8, 
+                "title": "50% Off Aikido Classes", 
+                "description": "$20 for One Month of Unlimited Aikido Classes at Fudoshin Aikikai ($40 Value)", 
+                "images":
+                {
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-10.jpg"
+                },
+                "location": 
+                {
+                    "lat": 37.33964,
+                    "lng": -121.91636,
+                    "distance": 946
+                },
+                "life_time": 334          
+            }    
+
+## Sale [/sale/?id=9]
+A single Sale object with id=9 and all its details
+
++ Parameters
+    + id (required, number, `9`) ... Numeric `id` of the Sale to perform action with. Has example value.
+
+### Retrieve a Sale [GET]
++ Response 200 (application/json)
+
+    + Body
+
+            {
+                "id": 9, 
+                "title": "Up to 51% Off Swimming and Waterslide Package", 
+                "description": "Swimming Package for Two or Four with Admission to The Aquarena and Waterslides at The Works (Up to 51% Off)", 
+                "images":
+                {
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-8.jpg",
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-23.jpg",
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-15.jpg"
+                },
+                "location": 
+                {
+                    "lat": 37.35302,
+                    "lng": -121.85422,
+                    "distance": 1530
+                },
+                "life_time": 854          
+            }    
+            
+## Sale [/sale/?id=10]
+A single Sale object with id=10 and all its details
+
++ Parameters
+    + id (required, number, `10`) ... Numeric `id` of the Sale to perform action with. Has example value.
+
+### Retrieve a Sale [GET]
++ Response 200 (application/json)
+
+    + Body
+
+            {
+                "id": 10, 
+                "title": "44% Off Hockey - Recreational", 
+                "description": "$14 for $25 Groupon â€” Sani Sport NL", 
+                "images":
+                {
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-15.jpg",
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-12.jpg",
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-10.jpg",
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-8.jpg"
+                },
+                "location": 
+                {
+                    "lat": 37.39476,
+                    "lng": -121.89164,
+                    "distance": 1200
+                },
+                "life_time": 2387          
+            }    
+
 ##  Current Provider [/active_provider]
 ### Current provider [GET]
 + Response 200 (application/json)
