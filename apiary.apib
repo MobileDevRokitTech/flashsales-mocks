@@ -291,6 +291,356 @@ Sales related resources of the **Sales API**
             }
          ]
 
+
+## Sales Collection [/sales_new]
+### List all Sales [GET]
++ Response 200 (application/json)
+
+        {
+            "sales" :
+        [
+            {
+                "id": 1,
+                "title": "Tangles Salon & Spa", 
+                "description": "20% Off Your Entire Purchase.",
+                "images":
+                [
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-23.jpg",
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-12.jpg",
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-10.jpg",
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-8.jpg",
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-15.jpg"
+                ],
+                "type" : "beauty",
+                "shop_id": 1,
+                "start_date" : "28.02.2015 10:30",
+                "expire_date" : "28.03.2015 12:30",
+            }, {
+                "id": 2,
+                "title": "Strong N'Free Case for iPhone 6",
+                "description": "Folio-style case protects screens from scratches",
+                "images":
+                [
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-12.jpg"
+                ],
+                "type" : "hi-tech",
+                "shop_id": 2,
+                "start_date" : "28.02.2015 10:30",
+                "expire_date" : "28.03.2015 12:30",
+            }, {
+                "id": 3,
+                "title": "Zumba Step Classes", 
+                "description": "One or Two Months of Zumba Step Classes at GETFITNL (Half Off)", 
+                "images":
+                [
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-8.jpg",
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-10.jpg",
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-15.jpg"
+                ],
+                "type" : "activity",
+                "shop_id": 3,
+                "start_date" : "28.02.2015 10:30",
+                "expire_date" : "28.03.2015 12:30",
+            }, {
+                "id": 4,
+                "title": "56% Off Custom Letter Art", 
+                "description": "C$59 for C$135 Worth of Custom Letter Art from Frame the Alphabet", 
+                "images":
+                [
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-15.jpg",
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-23.jpg",
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-12.jpg",
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-10.jpg",
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-8.jpg"
+                ],
+                "type" : "gift",
+                "shop_id": 4,
+                "start_date" : "28.02.2015 10:30",
+                "expire_date" : "28.03.2015 12:30",
+            }, {
+                "id": 5, 
+                "title": "FTD.ca - 50% Off Flowers and Gifts", 
+                "description": "US$15 for US$30 Worth of Flowers and Gifts from FTD.ca", 
+                "images":
+                [
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-23.jpg",
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-8.jpg",
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-15.jpg"
+                ],
+                "life_time": 100          
+                "type" : "gift",
+                "shop_id": 5,
+                "start_date" : "28.02.2015 10:30",
+                "expire_date" : "28.03.2015 12:30",
+            }, {
+                "id": 6, 
+                "title": "Name A Star Live - Up to 52% Off Gift Sets", 
+                "description": "Name A Star Live Gift Set with Optional Star Bear and Virtual Planetarium Software Package (Up to 52% Off)", 
+                "images":
+                [
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-12.jpg",
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-23.jpg",
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-10.jpg",
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-8.jpg",
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-15.jpg"
+                ],
+                "type" : "hi-tech",
+                "shop_id": 6,
+                "start_date" : "28.02.2015 10:30",
+                "expire_date" : "28.03.2015 12:30",
+            }, {
+                "id": 7, 
+                "title": "Up to Half Off American Food at Jungle Jim's", 
+                "description": "Ribs, Burgers, Chicken, Seafood, and Sandwiches and Steak-House Cuisine at Jungle Jim's (Up to Half Off)", 
+                "images":
+                [
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-10.jpg",
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-15.jpg"
+                ],
+                "type" : "fastfood",
+                "shop_id": 7,
+                "start_date" : "28.02.2015 10:30",
+                "expire_date" : "28.03.2015 12:30",
+            }, {
+                "id": 8, 
+                "title": "50% Off Aikido Classes", 
+                "description": "$20 for One Month of Unlimited Aikido Classes at Fudoshin Aikikai ($40 Value)", 
+                "images":
+                [
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-10.jpg"
+                ],
+                "type" : "activity",
+                "shop_id": 8,
+                "shop_name": "Fudoshin Aikikai",
+                "start_date" : "28.02.2015 10:30",
+                "expire_date" : "28.03.2015 12:30",
+            }, {
+                "id": 9, 
+                "title": "Up to 51% Off Swimming and Waterslide Package", 
+                "description": "Swimming Package for Two or Four with Admission to The Aquarena and Waterslides at The Works (Up to 51% Off)", 
+                "images":
+                [
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-8.jpg",
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-23.jpg",
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-15.jpg"
+                ],
+                "type" : "activities",
+                "shop_id": 9,
+                "start_date" : "28.02.2015 10:30",
+                "expire_date" : "28.03.2015 12:30",
+            }, {
+                "id": 10, 
+                "title": "44% Off Hockey - Recreational", 
+                "description": "$14 for $25 Groupon â€” Sani Sport NL", 
+                "images":
+                [
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-15.jpg",
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-12.jpg",
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-10.jpg",
+                    "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-8.jpg"
+                ],
+                "type" : "activities",
+                "shop_id": 10,
+                "start_date" : "28.02.2015 10:30",
+                "expire_date" : "28.03.2015 12:30",
+            }
+         ],
+        "stores" :
+            [
+            {
+                "location":
+                {
+                    "lat": 37.31917,
+                    "lng": -122.04511,
+                    "distance": 900
+                },
+                "id": 1,
+                "provider_id": 1,
+            }, {
+                "location":
+                {
+                    "lat": 37.32436,
+                    "lng": -121.99258,
+                    "distance": 900
+                },
+                "id": 2,
+                "provider_id" : 2,
+            }, {
+                "id": 3,
+                "location":
+                {
+                    "lat": 37.35193,
+                    "lng": -121.96683,
+                    "distance": 900
+                },
+                "provider_id": 3,
+            }, {
+                "id": 4,
+                "location":
+                {
+                    "lat": 37.36175,
+                    "lng": -122.02142,
+                    "distance": 720
+                },
+                "provider_id": 4,
+            }, {
+                "id": 5, 
+                "provider_id": 5,
+                "location":
+                {
+                    "lat": 37.29077,
+                    "lng": -121.99087,
+                    "distance": 539
+                },
+            }, {
+                "id": 6, 
+                "provider_id": 6,
+                "location":
+                {
+                    "lat": 37.29705,
+                    "lng": -121.95001,
+                    "distance": 82
+                },
+            }, {
+                "id": 7, 
+                "provider_id": 7,
+                "location":
+                {
+                    "lat": 37.30442,
+                    "lng": -121.91705,
+                    "distance": 142
+                },
+            }, {
+                "id": 8, 
+                "provider_id": 8,
+                "location":
+                {
+                    "lat": 37.33964,
+                    "lng": -121.91636,
+                    "distance": 946
+                },
+            }, {
+                "id": 9, 
+                "provider_id": 10,
+                "location":
+                {
+                    "lat": 37.35302,
+                    "lng": -121.85422,
+                    "distance": 1530
+                },
+            }, {
+                "id": 10, 
+                "provider_id": 10,
+                "location":
+                {
+                    "lat": 37.39476,
+                    "lng": -121.89164,
+                    "distance": 1200
+                },
+            }
+            
+            ]
+        "providers" :
+            [
+            {
+                "id": 1,
+                "type" : "beauty",
+                "title": "Tangles Salon & Spa", 
+                "logos":
+                [
+                    "http://www.spacegrant.org/sg_graphics/NASA%20Logo.gif",
+                    "http://hermann-uwe.de/files/images/miro-logo.png",
+                    "https://storm.apache.org/images/logos/alibaba.jpg",
+                    "http://csr-ukraine.org/wp-content/uploads/2014/04/Shell-Logo-Rebuilding-Iraq.jpg",
+                    "http://www.mamp.info/images/app-icons/icon-mamppro.png"
+                ],
+            }, {
+                "id": 2,
+                "type" : "hi-tech",
+                "name": "Mobile ++",
+                "logos":
+                [
+                    "http://hermann-uwe.de/files/images/miro-logo.png",
+                    "http://www.mamp.info/images/app-icons/icon-mamppro.png"
+                ],
+            }, {
+                "id": 3,
+                "type" : "activity",
+                "name": "GETFITNL",
+                "logos":
+                [
+                    "https://storm.apache.org/images/logos/alibaba.jpg"
+                ],
+            }, {
+                "id": 4,
+                "type" : "gift",
+                "name": "FTD.ca",
+                "logos":
+                [
+                    "http://csr-ukraine.org/wp-content/uploads/2014/04/Shell-Logo-Rebuilding-Iraq.jpg",
+                    "http://www.mamp.info/images/app-icons/icon-mamppro.png"
+                ],
+            }, {
+                "id": 5, 
+                "type" : "gift",
+                "name": "FTD.ca",
+                "logos":
+                [
+                    "http://www.mamp.info/images/app-icons/icon-mamppro.png",
+                    "https://storm.apache.org/images/logos/alibaba.jpg",
+                    "http://csr-ukraine.org/wp-content/uploads/2014/04/Shell-Logo-Rebuilding-Iraq.jpg"
+                ],
+            }, {
+                "id": 6, 
+                "type" : "hi-tech",
+                "name": "Name A Star Live",
+                "logos":
+                [
+                    "http://www.spacegrant.org/sg_graphics/NASA%20Logo.gif",
+                    "http://www.mamp.info/images/app-icons/icon-mamppro.png"
+                ],
+            }, {
+                "id": 7, 
+                "type" : "fastfood",
+                "name": "Jungle Jim's",
+                "logos":
+                [
+                    "http://hermann-uwe.de/files/images/miro-logo.png",
+                    "http://csr-ukraine.org/wp-content/uploads/2014/04/Shell-Logo-Rebuilding-Iraq.jpg",
+                    "http://www.mamp.info/images/app-icons/icon-mamppro.png"
+                ],
+            }, {
+                "id": 8, 
+                "type" : "activity",
+                "name": "Fudoshin Aikikai",
+                "logos":
+                [
+                    "https://storm.apache.org/images/logos/alibaba.jpg",
+                    "http://www.mamp.info/images/app-icons/icon-mamppro.png"
+                ],
+            }, {
+                "id": 9, 
+                "logos":
+                "type" : "activity",
+                "name": "The Works",
+                [
+                    "http://csr-ukraine.org/wp-content/uploads/2014/04/Shell-Logo-Rebuilding-Iraq.jpg",
+                    "https://storm.apache.org/images/logos/alibaba.jpg",
+                    "http://www.mamp.info/images/app-icons/icon-mamppro.png"
+                ],
+            }, {
+                "id": 10, 
+                "logos":
+                [
+                    "http://www.mamp.info/images/app-icons/icon-mamppro.png",
+                    "http://csr-ukraine.org/wp-content/uploads/2014/04/Shell-Logo-Rebuilding-Iraq.jpg"
+                ],
+                "type" : "activity",
+                "name": "Sani Sport NL",
+            }
+            ]
+         }
+
 ## Sale [/sales/?id=1]
 A single Sale object with id=1 and all its details
 
