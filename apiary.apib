@@ -842,7 +842,79 @@ A single Sale object with id=10 and all its details
 
         { "id": 3, "title": "Buy cheese and bread for breakfast." }
 
-        
+
+## Store [/stores/?id=6]
+A single Store object with id=6 and all its details
+
++ Parameters
+    + id (required, number, `1`) ... Numeric `id` of the Store to perform action with. Has example value.
+
+### Retrieve a Sale with id=1 [GET]
++ Response 200 (application/json)
+
+    + Body
+
+            {
+            "stores":
+            {
+                "id": 6, 
+                "provider_id": 6,
+                "location":
+                {
+                    "lat": 37.29705,
+                    "lng": -121.95001,
+                    "distance": 82,
+                    "address" : "New York, 6 Best Street"
+                }
+            },
+            "providers" :
+            [
+            {
+                "id": 6, 
+                "category" : "hi-tech",
+                "name": "Name A Star Live",
+                "logos":
+                [
+                    "http://www.spacegrant.org/sg_graphics/NASA%20Logo.gif",
+                    "http://www.mamp.info/images/app-icons/icon-mamppro.png"
+                ]
+            }
+            ],
+            "sales" :
+            [
+                {
+                    "id": 6, 
+                    "title": "Name A Star Live - Up to 52% Off Gift Sets", 
+                    "description": "Name A Star Live Gift Set with Optional Star Bear and Virtual Planetarium Software Package (Up to 52% Off)", 
+                    "images":
+                    [
+                        "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-12.jpg",
+                        "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-23.jpg",
+                        "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-10.jpg",
+                        "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-8.jpg",
+                        "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-15.jpg"
+                    ],
+                    "category" : "hi-tech",
+                    "store_id": 6,
+                    "start_date" : "28.02.2015 10:30",
+                    "expire_date" : "28.03.2015 12:30"
+                }, {
+                    "id": 7, 
+                    "title": "Up to Half Off American Food at Jungle Jim's", 
+                    "description": "Ribs, Burgers, Chicken, Seafood, and Sandwiches and Steak-House Cuisine at Jungle Jim's (Up to Half Off)", 
+                    "images":
+                    [
+                        "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-10.jpg",
+                        "http://justsomething.co/wp-content/uploads/2013/12/23-creatively-ironic-ads-15.jpg"
+                    ],
+                    "category" : "fastfood",
+                    "store_id": 6,
+                    "start_date" : "28.02.2015 10:30",
+                    "expire_date" : "28.03.2015 12:30"
+                }
+            ]
+            }
+       
 # Group Notes
 Notes related resources of the **Notes API**
 
