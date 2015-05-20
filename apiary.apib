@@ -6,8 +6,17 @@ It's a mock service for FlashSales API.
 # Group Sales
 Sales related resources of the **Sales API**
 
-## Sales Collection [/sales]
+
+
+## Sales Collection [/sales/?offset=0&limit=10]
 ### List all Sales [GET]
+
++ Parameters
+    + offset: '0' (number, optional) - offset of items
+     + Default: '0'
+    + limit: '10' (number, optional) - count of items in response
+     + Default: '0'
+
 + Response 200 (application/json)
 
         {
@@ -361,7 +370,8 @@ Sales related resources of the **Sales API**
                 "category" : "activity",
                 "name": "Sani Sport NL"
             }
-            ]
+            ],
+            total:30
          }
 
 ## Sale [/sales/?id=1]
