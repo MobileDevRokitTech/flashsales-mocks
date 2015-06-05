@@ -915,6 +915,26 @@ A single Sale object with id>=10 and all its details
 
         { "result": "sucess" }
 
+## Business Signup [/businesses/{provider_id}/photos]
+### Add image to business with given ID [POST]
+
++ Request (application/json)
+    
+        {
+            "name":"business-photo.png",
+            "type":"image/png",
+            "data":"Base64Data",
+        }
+
++ Response 201 (application/json)
+        
+        {
+            "id": "7777",
+            "name": "business-photo.png",
+            "url": "http://golokal.s3.amazon.com/images/business-photo-123123123.png"
+            "type": "image/png",
+            "size": 197
+        }
 
 ## User feedback [/user_feedback]
 ### Send feeback [POST]
